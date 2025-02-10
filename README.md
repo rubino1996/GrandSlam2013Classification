@@ -22,5 +22,6 @@ The best accuracy obtained from the five different classifier methods used was L
 
 ## Data Visualization using R $$
 Visualization of some important features (considered to me) in Tennis are done using the file "visualization.R". Visualization here is done using the AO dataset considering only the two players who reached the final (Rafael Nadal and Stanislas Wawrinka).  
+![Winner-FirstServePercentage](W-FSP.png)
 
 
