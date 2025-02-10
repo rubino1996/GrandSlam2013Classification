@@ -9,4 +9,10 @@ In tennis, the four most important tournaments (at least for me) are called Gran
 
 ## Things Considered When Looking at the Dataset ##
 - The datasets have a total of 42 features. Where each player has 20 features (2 players = 40) and the other two features are "Round" and "Result".
-- Features used for data training: (1) Input: First Serve Percentage, (2) Second Serve Percentage, (3) Winners, (4) Break Points Caused, (5) Net Points Attempted
+- Features used for data training: (1) Input: First Serve Percentage, Second Serve Percentage, ACE, Winners, Break Points Caused and Net Points Attempted. (2) Output/Target: Result\
+
+## Best Accuracy Classifier ##
+The best accuracy obtained from the five different classifier methods used was Logistic Regression (LR). LR gave an accuracy of around 84%, so LR was used to predict the "Result" against the actual Result (given the same features) for the other unobserved datasets (FO, W and UsO).
+
+## Results ##
+
