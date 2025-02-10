@@ -20,8 +20,13 @@ The best accuracy obtained from the five different classifier methods used was L
 - Predicting Wimbledon had an accuracy of around 70.2%
 - Predicting Us Open had an accuracy of around 80.2%
 
-## Data Visualization using R $$
+## Data Visualization using R ##
 Visualization of some important features (considered to me) in Tennis are done using the file "visualization.R". Visualization here is done using the AO dataset considering only the two players who reached the final (Rafael Nadal and Stanislas Wawrinka).  
+
 ![Winner-FirstServePercentage](W-FSP.png)
+
+![UnforcedError-SecondServePercentage](UE-SSP.png)
+
+![NetPointAttempted-FirstServePointWon](NPA-FSW.png)
 
 
