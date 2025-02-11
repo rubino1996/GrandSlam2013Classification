@@ -23,12 +23,14 @@ The best accuracy obtained from the five different classifier methods used was L
 ## Data Visualization using R ##
 Visualization of some important features (considered to me) in Tennis are done using the file "visualization.R". Visualization here is done using the AO dataset considering only the two players who reached the final (Rafael Nadal and Stanislas Wawrinka).  
 
+## Figure 1: Winners vs First Serve Percentage ##
 ![Winner-FirstServePercentage](W-FSP.png)
 
 - Nadal maintained a high first serve percentage throughout the tournament, except in the first round and the semifinal.
 - Wawrinka had a consistently low first serve percentage but managed to hit over 50 winners per match, except in the first round.
 - Both players recorded their lowest numbers in terms of winners and first serve percentage during the first round.
 
+## Figure 2: Unforced Errors vs Second Serve Percentage ##
 ![UnforcedError-SecondServePercentage](UE-SSP.png)
 
 - Wawrinka maintained a high second serve percentage but also averaged a high number of unforced errors.
@@ -36,6 +38,7 @@ Visualization of some important features (considered to me) in Tennis are done u
 - Nadal recorded his highest second serve percentage and fewest unforced errors in the first round.
 - Wawrinka had his lowest unforced error count in the first round, but it also marked his lowest second serve percentage.
 
+## Figure 3: Net Points Attempted vs First Serve Won ##
 ![NetPointAttempted-FirstServePointWon](NPA-FSW.png)
 
 - Wawrinka showed more consistency in approaching the net throughout the tournament and, on average, won more points on his first serve than Nadal.
